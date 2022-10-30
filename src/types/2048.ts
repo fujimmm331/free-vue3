@@ -11,3 +11,8 @@ export type PowerOfTwoType = 2
   | 2048
   | 4096
   | 8192
+
+export type PointType = {
+  x: number
+  y: number
+}
