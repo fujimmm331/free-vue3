@@ -1,0 +1,1 @@
+export const getRandomNum = (range: number) => Math.floor(Math.random() * range)
