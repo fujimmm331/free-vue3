@@ -1,6 +1,5 @@
 import axios from "axios";
-
-export default class BaseResource {
+class BaseResource {
   constructor() {
   }
 
@@ -9,3 +8,5 @@ export default class BaseResource {
       .then((data) => console.log('data', data))
   }
 }
+
+export default BaseResource
