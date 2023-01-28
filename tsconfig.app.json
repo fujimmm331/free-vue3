@@ -17,6 +17,21 @@
       ],
       "@resource/*": [
         "./src/resources/*"
+      ],
+      "@mocks/*": [
+        "./src/mocks/*"
+      ],
+      "@functions/*": [
+        "./src/functions/*"
+      ],
+      "@stores/*": [
+        "./src/stores/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
       ]
     }
   }
