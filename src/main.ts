@@ -9,6 +9,7 @@ import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
+import { worker } from "./mocks/browser";
 
 const vuetify = createVuetify({
   components,
@@ -22,6 +23,6 @@ const libraries = [
   vuetify
 ]
 
+if (process.env.NODE_ENV === 'development') worker.start()
 libraries.forEach(library => app.use(library))
-
 app.mount("#app");
