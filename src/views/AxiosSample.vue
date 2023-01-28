@@ -1,8 +1,10 @@
 <script setup lang="ts" >
-import BaseResource from '@/resources/BaseResource'
+import { useAxiosSamplePageFetchData } from '@functions/useAxiosSamplePageFetchData'
 const text = 'AxiosPage is running'
-const resource = new BaseResource()
-const url = 'https://api.chucknorris.io/jokes/random'
+const fetchData = useAxiosSamplePageFetchData()
+
+fetchData()
+
 </script>
 <template>
   <div>
