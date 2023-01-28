@@ -17,6 +17,6 @@ const onClickUpButton = () => {
       {{ field }}
     </div>
 
-    <button @click="onClickUpButton">↑</button>
+    <v-btn @click="onClickUpButton">↑</v-btn>
   </main>
 </template>
